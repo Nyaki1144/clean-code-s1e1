@@ -20,30 +20,39 @@ input,button{
   display: block;
   text-align: right;
 }
+
 .header img {
   width: 100%;
 }
+
 .moreInfo {
   font-family: fantasy, cursive;
 }
 
 @media (max-width:768px) {
-.header { text-align: center;
+
+  .header { 
+    text-align: center;
+  }
+
 }
-}
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1
 }
+
 .taskWrap {
   display: flex;
 }
+
 ul {
   margin:0;
   padding: 0px;
@@ -58,10 +67,17 @@ button {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 button:hover {
   color: #3a3A3a;
 }
+
+.editMode label {
+  display:none;
+}
+
 /* Heading */
+
 h3,
 label[for="newTask"] {
   color: #333;
@@ -72,6 +88,7 @@ label[for="newTask"] {
   margin: 0;
   text-transform: uppercase;
 }
+
 input[type="text"] {
   margin: 0;
   font-size: 18px;
@@ -84,20 +101,24 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 input[type="text"]:focus {
   color: #333;
 }
 
 /* New Task */
+
 label[for="newTask"] {
   display: block;
   margin: 0 0 20px;
 }
+
 #newTask {
   width: 318px;
 }
 
 /* Task list */
+
 li {
   overflow: hidden;
   padding: 20px 0;
@@ -107,6 +128,7 @@ li {
   justify-content: space-between;
   align-items: center;
 }
+
 li > * {
   vertical-align: middle;
 }
@@ -114,20 +136,24 @@ li > * {
 li > input[type="checkbox"] {
   margin: 0 10px;
 }
+
 li > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 li >  input[type="text"] {
   width: 226px
 }
+
 .delete img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .delete img:hover {
   transform: rotateZ(0);
 }
@@ -148,6 +174,3 @@ ul li input[type="text"] {
   width:224px
 }
 
-.editMode label {
-  display:none;
-}
