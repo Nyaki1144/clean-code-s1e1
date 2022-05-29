@@ -60,7 +60,7 @@ button {
   padding: 0px;
 }
 
-.btn {
+.main-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -70,7 +70,7 @@ button {
   cursor: pointer;
 }
 
-.btn:hover {
+.main-btn:hover {
   color: #3a3A3a;
 }
 
