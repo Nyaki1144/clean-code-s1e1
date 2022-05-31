@@ -32,7 +32,7 @@ var createNewTaskElement = function (taskString) {
   var deleteButton = document.createElement("button");//delete button
   var deleteButtonImg = document.createElement("img");//delete button image
 
-  listItem.className = "add-post__content"
+  listItem.className = "section-content"
   label.innerText = taskString;
   label.className = 'section-task';
 

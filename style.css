@@ -165,15 +165,17 @@ button {
 
 /* Edit Task */
 
-.section-content 
-.input {
+.section-content .input {
   display: none;
 }
 
-.section-content__edit 
-.input {
+.section-content__edit .input {
   display: inline-block;
   width: 224px;
+}
+
+.section-content__edit .section-task {
+  display: none;
 }
 
 .section-input {
